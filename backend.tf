@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "techtorialeks"
-    key    = "terraform.tfstate"
+    bucket = "brett-terraform"
+    key    = "Brett"
     region = "us-east-2"
   }
 }
